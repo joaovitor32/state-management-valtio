@@ -3,6 +3,9 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  env: {
+    API_URL: 'https://localhost:7104',
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
